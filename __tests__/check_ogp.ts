@@ -2,7 +2,7 @@ import { TARGET_URL } from "../setting";
 import "jest-puppeteer";
 import "expect-puppeteer";
 
-const ARTICLE_PAGE_URL = TARGET_URL + "article.html";
+const ARTICLE_PAGE_URL = `${TARGET_URL}article.html`;
 
 test("check ogp", async () => {
   await page.goto(ARTICLE_PAGE_URL);
