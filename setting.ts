@@ -1,2 +1,2 @@
-// ex) export const TARGET_URL = "https://xxxx.github.io/tech-blog.github.io/";
-export const TARGET_URL = "https://";
+export const TARGET_URL =
+  "https://okei-okei.github.io/tech-blog.github.io/top.html#";
